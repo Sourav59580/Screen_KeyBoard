@@ -1,0 +1,63 @@
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #dde1e7;
+                    }
+                    
+                    .text-container {
+                        overflow: auto;
+                        width: 60%;
+                        padding: 20px;
+                        box-shadow: inset -3px -3px 7px#ffffff73, inset 2px 2px 5px rgba(94, 104, 121, .128);
+                    }
+                    
+                    .container {
+                        width: 60%;
+                        padding: 25px;
+                        box-shadow: -3px -3px 7px#ffffff73, 2px 2px 5px rgba(94, 104, 121, .128);
+                    }
+                    
+                    .wraper {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .wraper input {
+                        width: 50px;
+                        height: 50px;
+                        padding: 10px;
+                        margin: 10px;
+                        font-size: 20px;
+                        outline: none;
+                        border: none;
+                        color: gray;
+                        background: #dde1e7;
+                        box-shadow: -3px -3px 7px#ffffff73, 2px 2px 5px rgba(94, 104, 121, .128);
+                    }
+                    
+                    .wraper input:focus {
+                        font-size: 19px;
+                        color: #3498db;
+                        box-shadow: inset -3px -3px 7px#ffffff73, inset 2px 2px 5px rgba(94, 104, 121, .128);
+                    }
+                    
+                    .wraper input[value="Space"] {
+                        width: 60%;
+                    }
+                    
+                    .wraper input[value="Clear"] {
+                        width: 12%;
+                    }
+                    
+                    .wraper input[value="CapsLock"] {
+                        width: 18%;
+                    }
